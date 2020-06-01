@@ -140,9 +140,9 @@ try
     nImagesssVEP = floor(TimessVEP*FreqssVEP); % floor stops presenting at an image instead of half an image or something
     
     %nAlpha = 10.75 ;  % the amount of different alpha values to be presented per stimuli; 10 for 120Hz and 5 for 60Hz 
-    %nAlpha =40 ;
+    nAlpha =40 ;
     framesPerStimuli = floor(1 / (FreqssVEP * nAlpha));  % calculate the exact number of frames per stimulus
-    waitTime = 0;
+    waitTime = 0; 
     
     milli = 1000000;   % one millisecond
     nMillis = 2;
